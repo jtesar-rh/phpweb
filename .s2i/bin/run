@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo BEFORE run ....
+
+/usr/libexec/bin/run
+pid=$!
+
+echo AFTER run ....
+wait $pid

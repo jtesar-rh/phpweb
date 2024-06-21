@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mkdir /tmp/arts
+echo content > /tmp/arts/file1
+echo content2 > /tmp/arts/file2
+echo content3 > /tmp/arts/file3
+
+cd /tmp/arts/
+tar cf - .
