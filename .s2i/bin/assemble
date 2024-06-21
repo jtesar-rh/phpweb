@@ -1,5 +1,0 @@
-#!/bin/bash
-
-ls /tmp/artifacts
-date > /tmp/date.inc
-/usr/libexec/s2i/assemble
