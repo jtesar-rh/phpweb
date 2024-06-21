@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo BEFORE assemble ....
-ls /tmp/artifacts
+
+env | grep MYBUILDENV
 
 /usr/libexec/s2i/assemble
 
-ls /tmp/artifacts
 echo AFTER assemble ....
