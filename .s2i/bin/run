@@ -2,7 +2,7 @@
 
 echo BEFORE run ....
 
-/usr/libexec/bin/run
+/usr/libexec/s2i/run
 pid=$!
 
 echo AFTER run ....
