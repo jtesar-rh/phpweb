@@ -1,7 +1,9 @@
 #!/bin/bash
 
 echo BEFORE assemble ....
+ls /tmp/artifacts
 
 /usr/libexec/s2i/assemble
 
+ls /tmp/artifacts
 echo AFTER assemble ....
