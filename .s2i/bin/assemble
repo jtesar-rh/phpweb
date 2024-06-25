@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo BEFORE assemble ....
-
-env | grep MYBUILDENV
-
-/usr/libexec/s2i/assemble
-
-echo AFTER assemble ....
